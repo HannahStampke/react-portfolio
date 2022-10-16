@@ -1,3 +1,10 @@
+:root {
+    --feijoa: #a2d187;
+    --riverbed: #404a59;
+    --jaggedice: #cae9eb;
+    --hopbush: #ce6897;
+  }
+
 .app {
     text-align: center;
 }
@@ -14,18 +21,18 @@
 }
 
 .app-header {
-    background-colour: #2e4763;
+    background: var(--jaggedice);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: medium;
-    color: #a2d187;
+    color: var(--riverbed);
 }
 
 .app-link {
-    colour: #ce6897;
+    color: var(--hopbush);
 }
 
 @keyframes app-logo-spin {
