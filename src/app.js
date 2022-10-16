@@ -1,7 +1,7 @@
 import Education from "./components/education";
 import Projects from "./components/project";
 import Work from "./components/resume";
-import "./assests/styles.css";
+import "./assests/style.css";
 import { useState } from "react";
 import Contact from "./components/contact";
 export default function App() {
