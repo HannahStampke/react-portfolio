@@ -1,0 +1,34 @@
+:root {
+    --feijoa: #a2d187;
+    --riverbed: #404a59;
+    --jaggedice: #cae9eb;
+    --hopbush: #ce6897;
+  }
+
+.contentContainer {
+    background: var(--hopbush);
+    width: 80%;
+    box-shadow: 10px 10px 63px 4px var(--hopbush);
+    margin-inline: auto;
+}
+
+.footerContainer {
+    background: var(--riverbed);
+    width: 80%;
+    box-shadow: 10px 10px 63px 4px var(--riverbed);
+    margin-inline: auto;
+}
+
+.socialContainer {
+    background: var(--riverbed);
+    width: 80%;
+    box-shadow: 10px 10px 63px 4px var(--riverbed);
+    margin-inline: auto;
+}
+
+.footerImage {
+    background: var(--riverbed);
+    width: 80%;
+    box-shadow: 10px 10px 63px 4px var(--riverbed);
+    margin-inline: auto;
+}

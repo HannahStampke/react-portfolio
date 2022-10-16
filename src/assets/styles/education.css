@@ -1,0 +1,30 @@
+:root {
+    --feijoa: #a2d187;
+    --riverbed: #404a59;
+    --jaggedice: #cae9eb;
+    --hopbush: #ce6897;
+  }
+
+.university-name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--jaggedice);
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  
+  .university-degree {
+    font-family: 0.8rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--hopbush);
+    text-transform: uppercase;
+  }
+  
+  .year-finished {
+    font-family: monospace;
+    font-size: 1rem;
+    background: var(--riverbed);
+    color: var(--hopbush);
+    padding: 10px 10px;
+    border-radius: 20px;
+  }
